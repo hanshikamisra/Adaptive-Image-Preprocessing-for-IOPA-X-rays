@@ -15,7 +15,7 @@ This project addresses the critical need for an **adaptive preprocessing pipelin
 
 The pipeline is designed to work with DICOM medical images from various modalities (X-ray, CT, MRI, etc.), with a specific focus on IOPA X-rays. The system handles:
 
-- **File Format**: DICOM (.dcm, .DICOM) files with embedded metadata
+- **File Format**: DICOM (.dcm, .DICOM, .rvg) files with embedded metadata
 - **Image Types**: Grayscale medical images with varying bit depths
 - **Metadata Extraction**: Automatic extraction of relevant DICOM tags including modality, pixel spacing, photometric interpretation
 - **Error Handling**: Robust processing of potentially corrupted or non-standard DICOM files
